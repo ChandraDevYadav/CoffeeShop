@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FaAngleDown } from "react-icons/fa";
-import { Link } from 'react-router-dom';
-
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
