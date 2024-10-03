@@ -18,7 +18,7 @@ const teaList = [
 const Menu = () => {
   return (
     <div className='mx-4 md:mx-12 pb-12'>
-      <div className='mt-24 md:mt-48'>
+      <div className='mt-36 md:mt-48'>
         <div className="flex justify-center items-center gap-3">
           <img src="./cb.png" alt="" className="w-6 h-6" />
           <p className="text-[18px] md:text-[22px] text-[#3f271e] font-semibold font-caudex">OUR FEATURES</p>
@@ -35,15 +35,21 @@ const Menu = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10 mb-4">
         {teaList.map((item) => (
           <div key={item.id} className="flex flex-col md:flex-row justify-center items-center">
-            <div className="flex justify-center items-center gap-3">
-              <img src={item.img} alt={item.name} className="w-20 h-20 md:w-28 md:h-28" />
-              <div>
-                <p className="text-[1rem] md:text-[2rem] font-semibold font-caudex">{item.name}</p>
-                <p className="font-caudex text-gray-500 text-[12px] md:text-base">{item.description}</p>
+            <div className="grid grid-cols-9 gap-2">
+              <div className='col-span-2 flex justify-center items-center'>
+              <img src={item.img} alt={item.name} className="w-16 h-16 md:w-28 md:h-28" />
               </div>
-              <div className="border-t-4 border-dotted border-t-black w-12 md:w-20 mx-4 md:mx-6"></div>
-              <div>
-                <p className="text-black font-bold text-[12px] md:text-2xl">RS {item.price}</p>
+              <div className='col-span-4 flex justify-center items-center'>
+                <div className=''>
+                <p className="text-[1.2rem] md:text-[2rem] font-semibold font-caudex">{item.name}</p>
+                <p className="font-caudex text-gray-500 text-[14px] pr-10 md:text-base">{item.description}</p>
+                </div>
+              </div>
+              <div className="flex justify-center items-center">
+                <div className='border-t-4 border-dotted border-t-black w-8 md:w-28 mx-1 md:mx-6'></div>
+              </div>
+              <div className='col-span-2 flex justify-center items-center'>
+                <p className="text-black font-bold text-[16px] md:text-2xl">RS {item.price}</p>
               </div>
             </div>
           </div>

@@ -2,8 +2,8 @@ import React from 'react';
 
 const ContactUs = () => {
   return (
-    <div>
-      <div className='grid grid-cols-2 md:grid-cols-2 mx-4 md:mx-28'>
+    <div className='pb-24 md:pb-0'>
+      <div className='grid grid-cols-2 md:grid-cols-2 mx-4 md:mx-28 '>
         <div className='bg-[#3f271e] p-6 md:p-10 col-span-2 md:col-span-1'>
           <div className='flex items-center gap-3 mb-4'>
             <img src="./coffee-bean (1).png" alt="" className='w-7 h-7' />

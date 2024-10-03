@@ -83,15 +83,15 @@ const swiperData = [
 
 export default () => {
   return (
-    <div className="mt-16 ">
+    <div className="mt-4 border-t border-gray-300 pt-8 md:mt-16 ">
       <div className="flex justify-center items-center gap-3">
         <img src="./cb.png" alt="" className="w-6 h-6" />
-        <p className="text-[22px] font-semibold text-[#3f271e] font-caudex">
+        <p className="text-[18px] md:text-[22px] font-semibold text-[#3f271e] font-caudex">
           OUR ONLINE SHOP
         </p>
       </div>
       <div className="text-center mb-16">
-        <p className="text-[60px] text-[#3f271e] font-caudex font-bold my-2">
+        <p className="text-[40px] md:text-[60px] text-[#3f271e] font-caudex font-bold my-2">
           Buy Our Featured Products
         </p>
         <p className="text-gray-500 px-4 font-caudex font-medium">

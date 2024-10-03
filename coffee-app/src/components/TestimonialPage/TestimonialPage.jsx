@@ -56,13 +56,13 @@ const TestimonialPage = () => {
       onMouseEnter={() => setIsHovered(true)}  // Show buttons on hover
       onMouseLeave={() => setIsHovered(false)} // Hide buttons when not hovering
     >
-      <div className='mt-[8rem]'>
+      <div className='mt-[1rem] pt-10 md:pt-0 md:mt-[4rem] border-t border-gray-300 md:border-t-0'>
         <div className="flex justify-center items-center gap-3">
           <img src="./cb.png" alt="" className="w-6 h-6" />
-          <p className="text-[22px] text-[#3f271e] font-semibold font-caudex">OUR ONLINE SHOP</p>
+          <p className="text-[18px] md:text-[22px] text-[#3f271e] font-semibold font-caudex">OUR ONLINE SHOP</p>
         </div>
         <div className="text-center">
-          <p className="text-[60px] font-caudex text-[#3f271e] font-bold">What Our Clients Says</p>
+          <p className="text-[40px] md:text-[60px] font-caudex text-[#3f271e] font-bold">What Our Clients Says</p>
           <p className="text-gray-500 px-4 font-caudex font-medium">
             Proin consectetur non dolor vitae pulvinar. Pellentesque sollicitudin
             dolor eget neque viverra, sed interdum metus <br /> interdum. Cras lobortis
