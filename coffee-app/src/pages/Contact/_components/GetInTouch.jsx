@@ -5,7 +5,7 @@ import GetInForm from "./GetInForm";
 const GetInTouch = () => {
   return (
     <div className="mx-4 md:mx-20 lg:mx-40 my-4">
-      <div className="grid grid-cols-1 md:grid-cols-6 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-6 justify-center items-center gap-6">
         <div className="col-span-1 md:col-span-2 py-4">
           <div className="flex gap-5 py-10 justify-start items-center border-b border-b-gray-200">
             <div className="flex justify-center items-center p-4 md:p-6 bg-[#3f271e] rounded-full">

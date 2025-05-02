@@ -5,7 +5,7 @@ import { FaMapLocation, FaPhone } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4 bg-[#3f271e] p-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4 bg-[#3f271e] py-4 px-12">
         <div className="col-span-1 lg:col-span-2">
           <div className="flex items-center gap-4 mt-4">
             <img src="./mq5.png" alt="Logo" className="w-24 h-24" />
@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 bg-[#291813] py-3">
-        
+
         <div className="flex gap-4 justify-center items-center">
           <div className="flex gap-4 px-4 md:px-16 py-6">
             <img src="./facebook.png" className="w-8 h-8" alt="Facebook" />
